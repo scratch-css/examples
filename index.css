@@ -1,0 +1,14 @@
+/* scratch framework */
+@import 'node_modules/@nikoloza/scratch/lib/index.css';
+
+/* scratch grid */
+@import 'node_modules/@nikoloza/scratch-grid/lib/index.css';
+
+/* scratch ui */
+@import 'node_modules/@nikoloza/scratch-ui/lib/index.css';
+
+/* scratch helpers */
+@import 'node_modules/@nikoloza/scratch-helpers/lib/index.css';
+
+/* scratch animations */
+@import 'node_modules/@nikoloza/scratch-animations/lib/index.css';
