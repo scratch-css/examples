@@ -1,5 +1,38 @@
-/** Document configuration */
+@import './colors';
+@import './document';
+@import './typography';
+@import './headings';
+
+/* forms */
+@import './buttons';
+@import './fields';
+
 :root {
-  --document-color: #eee;
-  --document-background: #fff;
+  --hr-color: var(--secondary-lighten);
+  --hr-opacity: 1;
+}
+
+/* demo */
+h1 {
+  border-bottom: 1px solid var(--secondary-lighten);
+  max-width: 260px;
+  padding: var(--gutter-tiny) 0;
+  margin: var(--gutter) 0;
+}
+
+h4 {
+
+}
+
+hr {
+  max-width: 260px;
+}
+
+section.demo {
+  margin: var(--gutter) 0 var(--gutter-large);
+
+  > * {
+    margin: 0 var(--gutter-small) 0 0;
+    vertical-align: top;
+  }
 }

@@ -1,0 +1,6 @@
+:root {
+  --heading-weight: var(--font-semibold);
+
+  /*  */
+  --heading-color: var(--primary);
+}

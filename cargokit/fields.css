@@ -1,0 +1,21 @@
+/* Fields configuraton */
+:root {
+  --field-height: 3.5rem;
+  --field-height-sequence: 1.2rem;
+
+  --field-text-transform: normal;
+  --field-border-radius: 3px;
+
+  --field-font-size: var(--h6);
+  --field-font-size-sequence: var(--major-second);
+
+  /* colors */
+
+  /* borders */
+  --field-border-color: var(--quaternary);
+  --field-border-color-hover: var(--quaternary-hover);
+  --field-border-color-focus: var(--quaternary-focus);
+
+  --field-background-hover: var(--whiteblue);
+  --field-background-focus: var(--coldblue);
+}

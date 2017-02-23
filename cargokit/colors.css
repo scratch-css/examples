@@ -1,0 +1,52 @@
+/* brand colors */
+:root {
+  --darkblue: #214B6D;
+  --blue: #1E7FF0;
+  --lightblue: #D5E4F0;
+  --coldblue: #E8F2FF;
+  --whiteblue: #F6FAFF;
+
+  --darkergray: #90A5BF;
+  --softgray: #5a636b;
+  --coldgray: #9AAAB8;
+  --lightgray: #AAB7C4;
+  --lightengray: #CED7DF;
+  --whitegray: #F1F4F7;
+
+  --green: #02D04E;
+  --green-hover: #00C247;
+  --green-focus: #00AF41;
+
+  --red: #D0021B;
+  --red-hover: #C60018;
+  --red-focus: #B60016;
+}
+
+/* priorities */
+:root {
+  --primary: var(--green);
+  --primary-hover: var(--green-hover);
+  --primary-focus: var(--green-focus);
+
+  --secondary-darker: var(--darkblue);
+  --secondary: var(--blue);
+  --secondary-lighten: var(--lightblue);
+
+  --tertiary: var(--red);
+  --tertiary-hover: var(--red-hover);
+  --tertiary-focus: var(--red-focus);
+
+  --quaternary: var(--coldgray);
+  --quaternary-hover: var(--blue);
+  --quaternary-focus: var(--blue);
+
+  --quaternary-contrast: white;
+  --quaternary-contrast-hover: var(--whiteblue);
+  --quaternary-contrast-focus: var(--coldblue);
+
+  --quinary: var(--lightengray);
+  --quinary-hover: var(--lightengray);
+  --quinary-focus: var(--lightengray);
+
+  --quinary-darker: var(--darkgray);
+}

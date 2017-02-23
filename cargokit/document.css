@@ -1,0 +1,6 @@
+  /** Document configuration */
+:root {
+  --document-color: var(--secondary-darker);
+  --document-background: #fff;
+  --document-padding: var(--gutter);
+}
