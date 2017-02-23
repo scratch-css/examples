@@ -3,4 +3,25 @@
 
 
 /* cargokit example */
-@import 'cargokit/index.css'
+@import 'cargokit/index.css';
+
+/* demo */
+body > h1 {
+  border-bottom: 1px solid var(--secondary-lighten);
+  padding: var(--gutter-tiny) 0;
+  margin: var(--gutter-large) 0 var(--gutter);
+}
+
+hr {
+  max-width: 260px;
+}
+
+section.demo {
+  margin: var(--gutter) 0 var(--gutter-large);
+
+  > .button,
+  > .field {
+    margin: 0 var(--gutter-small) 0 0;
+    vertical-align: top;
+  }
+}

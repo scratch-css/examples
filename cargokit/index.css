@@ -10,29 +10,5 @@
 :root {
   --hr-color: var(--secondary-lighten);
   --hr-opacity: 1;
-}
-
-/* demo */
-h1 {
-  border-bottom: 1px solid var(--secondary-lighten);
-  max-width: 260px;
-  padding: var(--gutter-tiny) 0;
-  margin: var(--gutter) 0;
-}
-
-h4 {
-
-}
-
-hr {
-  max-width: 260px;
-}
-
-section.demo {
-  margin: var(--gutter) 0 var(--gutter-large);
-
-  > * {
-    margin: 0 var(--gutter-small) 0 0;
-    vertical-align: top;
-  }
+  --hr-margin: var(--gutter-big) 0;
 }
