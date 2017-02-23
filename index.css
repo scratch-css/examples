@@ -12,3 +12,7 @@
 
 /* scratch animations */
 @import 'node_modules/@nikoloza/scratch-animations/lib/index.css';
+
+
+/* cargokit example */
+@import 'cargokit/index.css'
