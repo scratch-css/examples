@@ -22,6 +22,7 @@
   --field-border-color-hover: var(--quaternary-hover);
   --field-border-color-focus: var(--quaternary-focus);
 
+  /* backgrounds */
   --field-background-hover: var(--whiteblue);
   --field-background-focus: var(--coldblue);
 }
