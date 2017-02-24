@@ -10,9 +10,15 @@
   --field-font-size-sequence: var(--major-second);
 
   /* colors */
+  --field-placeholder-color: var(--lightgray);
+  --field-placeholder-opacity: .75;
+
+  --field-color: var(--softgray);
+  --field-color-hover: var(--secondary-hover);
+  --field-color-focus: var(--secondary-focus);
 
   /* borders */
-  --field-border-color: var(--quaternary);
+  --field-border-color: var(--quinary);
   --field-border-color-hover: var(--quaternary-hover);
   --field-border-color-focus: var(--quaternary-focus);
 

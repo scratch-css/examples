@@ -3,4 +3,8 @@
 
   /*  */
   --heading-color: var(--primary);
+
+  /* sizes */
+  --heading-median: 1.4;
+  --heading-sequence: var(--minor-third);
 }

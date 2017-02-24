@@ -9,7 +9,7 @@
 body > h1 {
   border-bottom: 1px solid var(--secondary-lighten);
   padding: var(--gutter-tiny) 0;
-  margin: var(--gutter-large) 0 var(--gutter);
+  margin: 1.4em 0 var(--gutter);
 }
 
 hr {
