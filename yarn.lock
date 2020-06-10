@@ -2,43 +2,43 @@
 # yarn lockfile v1
 
 
-"@nikoloza/scratch-all@^0.3.0":
+"@nikoloza/scratch-all@~0.3":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-all/-/scratch-all-0.3.4.tgz#fba9ece655b7dd31d2131e1a3012e21b470c1f0b"
+  dependencies:
+    "@nikoloza/scratch" "~0.3"
+    "@nikoloza/scratch-animations" "~0.3"
+    "@nikoloza/scratch-grid" "~0.3"
+    "@nikoloza/scratch-helpers" "~0.3"
+    "@nikoloza/scratch-ui" "~0.3"
+
+"@nikoloza/scratch-animations@~0.3":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-animations/-/scratch-animations-0.3.4.tgz#52cbd7c667bbf278dc5cb2f2169623eb30d79e8b"
+  dependencies:
+    "@nikoloza/scratch" "~0.3"
+
+"@nikoloza/scratch-grid@~0.3":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-grid/-/scratch-grid-0.3.5.tgz#6586e8087c4e4bc728fd475e9e8a8c1fb974b056"
+  dependencies:
+    "@nikoloza/scratch" "~0.3"
+
+"@nikoloza/scratch-helpers@~0.3":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-helpers/-/scratch-helpers-0.3.5.tgz#3fc139c192673a223e256db3c5a721d944985138"
+  dependencies:
+    "@nikoloza/scratch" "~0.3"
+
+"@nikoloza/scratch-ui@~0.3":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-ui/-/scratch-ui-0.3.7.tgz#e8c78c52bcb5de72293b66d9267ce4df9dd35984"
+  dependencies:
+    "@nikoloza/scratch" "~0.3"
+
+"@nikoloza/scratch@~0.3":
   version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-all/-/scratch-all-0.3.2.tgz#00ad0a434e6f34657d30ae4700cbba740dc9d1bf"
-  dependencies:
-    "@nikoloza/scratch" "^0.3.0"
-    "@nikoloza/scratch-animations" "^0.3.0"
-    "@nikoloza/scratch-grid" "^0.3.0"
-    "@nikoloza/scratch-helpers" "^0.3.0"
-    "@nikoloza/scratch-ui" "^0.3.0"
-
-"@nikoloza/scratch-animations@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-animations/-/scratch-animations-0.3.1.tgz#3fe67d45868ef4a8fd8fb548dd739f476789df33"
-  dependencies:
-    "@nikoloza/scratch" "^0.3.0"
-
-"@nikoloza/scratch-grid@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-grid/-/scratch-grid-0.3.1.tgz#b710b97281bcbfce840bfb18092a71be11be1a18"
-  dependencies:
-    "@nikoloza/scratch" "^0.3.0"
-
-"@nikoloza/scratch-helpers@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-helpers/-/scratch-helpers-0.3.1.tgz#f286bff5723addb5a7334ae2beb1fb4dc0e634a1"
-  dependencies:
-    "@nikoloza/scratch" "^0.3.0"
-
-"@nikoloza/scratch-ui@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch-ui/-/scratch-ui-0.3.1.tgz#633dd5cc3fe44ca8e1b20e31f0c66fcbc6a94c7f"
-  dependencies:
-    "@nikoloza/scratch" "^0.3.0"
-
-"@nikoloza/scratch@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nikoloza/scratch/-/scratch-0.3.1.tgz#a1516bd49f10a352d9fb25a194cd88ec67937c5b"
+  resolved "https://registry.yarnpkg.com/@nikoloza/scratch/-/scratch-0.3.2.tgz#725e47d6681cec685965066054c1254dc0e9b362"
 
 abbrev@1:
   version "1.1.0"
@@ -4107,8 +4107,8 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.1.tgz#76899499c184b6ef754377c2dbb0cd6cb55d29e7"
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
 
 when@^3.7.5:
   version "3.7.8"
